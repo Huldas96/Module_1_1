@@ -1,3 +1,9 @@
+/* 
+The " * " marks upon the whole document.
+Using this selector helps me select the whole document and I defined some rules like no margin and padding and box sizing
+ */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +11,12 @@
 }
 
 body {
-    margin: 0;
     font-family: Verdana, Montserrat, Tahoma, sans-serif;
 }
 
+/* 
+    Here I gave the UL a Class of menu and defined the content to flex and justified the content of space between. Margin is auto.
+*/
 
 .menu {
     display: flex;
@@ -16,9 +24,18 @@ body {
     margin: auto;
 }
 
+/* 
+    Here I gave the Logo a Class of Flatbaka and defined its width.
+*/
+
 .flatbaka {
     width: 130px;
 }
+
+/* 
+    Here I selected the header and made it into a flexbox. 
+    I defined the width to be 100% of the screen, position is fixed, gave it a color and added some much needed padding.
+*/
 
 header {
     display: flex;
@@ -34,6 +51,11 @@ header {
     width: auto;
 }
 
+/* 
+    Here I targeted the list items of the navigation bar and defined the items to be displayed inline, 
+    without any added decoration and styling of the font and with some padding.
+*/
+
 nav ul li {
     display: inline;
     text-decoration-style: none;
@@ -44,6 +66,11 @@ nav ul li {
     margin-right: 2em;
     padding-top: 1.5rem;
 }
+
+/* 
+    Here I targeted the first child of the list items of the navigation and made the margin right auto. This is the logo.
+    So I gave it a margin-right auto to give it the ability to use the space available to push it to the left.
+*/
 
 nav ul li:first-child {
     padding: 0;
@@ -57,6 +84,11 @@ nav ul li:last-child {
 nav {
     width: 100%;
 }
+
+/* 
+    Here Is another unordered list that stands in the content of the page.
+    I defined the margin to match the H1 and added a padding on top to make the list more readable.
+*/
 
 section ul li {
     margin-left: 9rem;
@@ -81,6 +113,7 @@ p {
     letter-spacing: 0.1px;
     line-height: 1.3rem;
 }
+
 .content {
     display: flex;
     margin-top: 7.8rem;
@@ -90,6 +123,10 @@ p {
 main {
     display: flex;
 }
+
+/* 
+    Here I styled the hyperlinks so they wont be blue or underlined. ( the deafult styling of html documents )
+*/
 
 a  {
     color: inherit;
@@ -102,10 +139,12 @@ a:hover {
 
 .brown-container {
     background-color: #654E4E;
-    margin: 0;
-    padding: 0;
     height: 70px;
 }
+
+/* 
+    Here I gave the text inside footer the id stadsetning. Here I style it.
+*/
 
 #stadsetning {
     font-size: 1.5rem;
