@@ -11,7 +11,7 @@ Using this selector helps me select the whole document and I defined some rules 
 }
 
 body {
-    font-family: Verdana, Montserrat, Tahoma, sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 
 /* 
@@ -60,7 +60,7 @@ nav ul li {
     display: inline;
     text-decoration-style: none;
     font-size: 2em;
-    font-family: Verdana;
+    font-family: 'Exo', sans-serif;
     font-style: normal;
     font-weight: bold;
     margin-right: 2em;
@@ -72,12 +72,12 @@ nav ul li {
     So I gave it a margin-right auto to give it the ability to use the space available to push it to the left.
 */
 
-nav ul li:first-child {
+.menu-child-1 {
     padding: 0;
     margin-right: auto;
 }
 
-nav ul li:last-child {
+.menu-child-4 {
     margin-right: 0.8rem;
 }
 
@@ -97,7 +97,7 @@ section ul li {
 }
 
 h1 {
-    font-family: Verdana;
+    font-family: 'Exo', sans-serif;
     font-weight: bold;
     max-width: 600px;
     margin-left: 6rem;
@@ -112,6 +112,8 @@ p {
     padding-top: 1rem;
     letter-spacing: 0.1px;
     line-height: 1.3rem;
+    font-family: 'Exo', sans-serif;
+
 }
 
 .content {
@@ -148,7 +150,10 @@ a:hover {
 
 #stadsetning {
     font-size: 1.5rem;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     padding-left: 1rem;
     color: #BDBDBD;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    word-spacing: 0.2rem;
 }
